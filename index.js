@@ -1,10 +1,10 @@
 const LaunchDarkly = require('launchdarkly-node-client-sdk');
 
 // Set environmentId to your LaunchDarkly client-side ID.
-const environmentId = "";
+const environmentId = "63519f9cf44d3611f1762340";
 
 // Set featureFlagKey to the feature flag key you want to evaluate.
-const featureFlagKey = "my-boolean-flag";
+const featureFlagKey = "enable-toggle-runner";
 
 function showMessage(s) {
   console.log("*** " + s);
